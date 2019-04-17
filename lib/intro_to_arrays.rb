@@ -3,7 +3,8 @@ def instantiate_new_array
   ary = Array.new    # => []
 end
 
-# indexing to access specific array elements
+#creates a new array with elements in it and 
+#returning an array that has two objects in it
 def array_with_two_elements
   ary = Array.new
   Array.new(2)
